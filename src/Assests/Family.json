@@ -1,0 +1,82 @@
+{
+    "Batman": {
+        "Name": "Batman",
+        "Image": true,
+        "ImagePath": "Batman.jpg",
+        "Father": "Thomas Wayne",
+        "Mother": "Martha Wayne",
+        "Sibling": ["Thomas Wayne, Jr"],
+        "Spouse": "Talia al Ghul",
+        "Children": ["Damian Wayne"],
+        "About": "Batman[a] is a superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in Gotham City. Batman's origin story features him swearing vengeance against criminals after witnessing the murder of his parents Thomas and Martha, a vendetta tempered with the ideal of justice. He trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night. Kane, Finger, and other creators accompanied Batman with supporting characters, including his sidekicks Robin and Batgirl; allies Alfred Pennyworth, James Gordon, and Catwoman; and foes such as the Penguin, the Riddler, Two-Face, and his archenemy the Joker."
+    },
+
+    "Thomas Wayne, Jr": {
+        "Name": "Thomas Wayne, Jr",
+        "Image": false,
+        "ImagePath": null,
+        "Father": "Thomas Wayne",
+        "Mother": "Martha Wayne",
+        "Sibling": ["Batman"],
+        "Spouse": null,
+        "Children":  null,
+        "About": "The eldest son of Dr. Thomas Wayne and his wife Martha (though one account claims he was actually the youngest), Thomas Wayne, Jr. was born three years before his brother Bruce. Thomas Jr. suffered severe head injuries when he was struck by a car as a young child, and sustained permanent brain damage. Because he would always remain mentally unstable, and a danger to himself and society, his parents had no choice but to have him confined to a mental institution, Willowood Asylum, for life. Thomas Jr. adopted the asylum's name, Willowood, as his new surname, as his family name was kept secret. Although Thomas and Martha Wayne had planned to tell Bruce about his long-lost brother when he was old enough, they never got the opportunity as they were murdered by Joe Chill before they could do so."
+    },
+
+    "Ra's Al Ghul": {
+        "Name": "Ra's Al Ghul",
+        "Image": true,
+        "ImagePath": "Ra's Al Ghul.jpg",
+        "Father": null,
+        "Mother": null,
+        "Sibling": null,
+        "Spouse": null,
+        "Children":  ["Joker"],
+        "About": "Ras al Ghul (Arabic: رأس الغول, romanized: Ras al-Ġūl, commonly pronounced incorrectly as Re'sh, hence  RAY Manchu, has since developed substantially into one of Batman's most enduring enemies and belongs to the collective of adversaries who compose Batman's rogues gallery, though given his high status as a supervillain, he has also come into conflict with Superman, Green Arrow, and other heroes in the DC Universe. "
+    },
+
+    "Thomas Wayne": {
+        "Name": "Thomas Wayne",
+        "Image": true,
+        "ImagePath": "Thomas Wayne.jpg",
+        "Father": null,
+        "Mother": null,
+        "Sibling": null,
+        "Spouse": "Martha Wayne",
+        "Children": ["Batman", "Thomas Wayne, Jr"],
+        "About": "Thomas Alan Wayne, M.D. is a fictional character appearing in American comic books published by DC Comics. He is the father of Bruce Wayne (Batman), and husband of Martha Wayne as well as the paternal grandfather of Damian Wayne. Wayne was introduced in Detective Comics #33 (November 1939), the first exposition of Batman's origin story. A gifted surgeon and philanthropist to Gotham City, Wayne inherited the Wayne family fortune after Patrick Wayne. When Wayne and his wife are murdered in a street mugging, Bruce is inspired to fight crime as the vigilante Batman.[2] "
+    },
+    "Martha Wayne": {
+        "Name": "Martha Wayne",
+        "Image": true,
+        "ImagePath": "Martha Wayne.jpg",
+        "Father": null,
+        "Mother": null,
+        "Sibling": null,
+        "Spouse": "Thomas Wayne",
+        "Children": ["Batman", "Thomas Wayne, Jr"],
+        "About": "Martha Wayne (née Kane)[2] is a fictional character appearing in American comic books published by DC Comics, commonly in association with the superhero Batman. She is the mother of Bruce Wayne, the future Batman, and wife of Dr. Thomas Wayne as well as the paternal grandmother of Damian Wayne, the fifth Robin. After she and her husband are murdered in a street robbery, her son becomes inspired to fight crime as the vigilante known as Batman"
+    },
+    "Talia al Ghul": {
+        "Name": "Talia al Ghul",
+        "Image": false,
+        "ImagePath": null,
+        "Father": "Ra's Al Ghul",
+        "Mother": null,
+        "Sibling": null,
+        "Spouse": "Batman",
+        "Children":  ["Damian Wayne"],
+        "About": "Talia al Ghul  is a fictional character appearing in American comic books published by DC Comics, commonly in association with Batman. The character was created by writer Dennis O'Neil and artist Bob Brown, and first appeared in Detective Comics #411 (May 1971).[3] Talia is the daughter of the supervillain Ra's al Ghul, the granddaughter of Sensei, the half-sister of Nyssa Raatko, on-and-off lover of the superhero Batman, and the mother of their son Damian Wayne (the fifth Robin). She has alternately been depicted as an anti-heroine that is constantly torn between being an ally and an enemy of Batman due to her loyalty to both him and her father."
+    },
+    "Damian Wayne": {
+        "Name": "Damian Wayne",
+        "Image": false,
+        "ImagePath": null,
+        "Father": "Batman",
+        "Mother": "Talia al Ghul",
+        "Sibling": null,
+        "Spouse": null,
+        "Children":  null,
+        "About": "Damian Thomas Wayne is a fictional superhero and sidekick appearing in comic books published by DC Comics, created by Grant Morrison and Andy Kubert, commonly in association with Batman. He is the son of Batman and Talia al Ghul,[3][4][5][6] and thus the grandson of Batman villain Ra's al Ghul and the potential inheritor of Wayne Enterprises.[7] With the al Ghuls citing Bruce Wayne as the optimal successor to their empire,[8][9][10][11] after faking a miscarriage to his father and calling off their marriage,[12] Talia has kept his existence hidden from Batman until Batman #656 (2006). In turn, the character is revealed to have originally been intended to kill and replace his famous father,[13] as well as serving as a host body for Ra's al Ghul,[14][15] thus, in theory, unifying both Wayne and Demon factions as intended by the al Ghuls.[16][17] A prototype of the character originally appeared as an unnamed infant in the 1987 story Batman: Son of the Demon,[18][19] which at that time was not considered canon. Following this, various alternate universe stories dealt with the character's life, giving him various names. In 2006, the character was reinterpreted as Damian Wayne by Grant Morrison, and introduced into the main continuity in Batman #655, the first issue of the Batman and Son story arc. Damian Wayne is the fifth character to assume the role of Robin, Batman's vigilante partner."
+    }
+}

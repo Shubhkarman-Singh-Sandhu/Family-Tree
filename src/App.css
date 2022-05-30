@@ -1,0 +1,100 @@
+:root {
+  --mainColor: #448d76;
+  --textColorPanel: #093426;
+  --bgColorPanel: #e7f3ef;
+  --titleColor: #79bea8;
+  --buttonTextColor: #448d76;
+  --anotherColor: #23483C;
+  --buttonBGColor: rgba(9, 52, 38, 0.9);
+  --buttonBGColorHover: rgba(9, 52, 38, 0.95);
+  --buttonBGColorActive: rgba(9, 52, 38, 1);
+  --droppedBGColor: rgba(35, 72, 60, 9);
+  --droppedBGColorHover: rgba(35, 72, 60, 0.95);
+  --droppedBGColorActive: rgba(35, 72, 60, 1);
+}
+
+.main {
+  background-color: var(--mainColor);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+.panel {
+  background-color: var(--bgColorPanel);
+  color: var(--textColorPanel);
+}
+
+
+.title {
+  margin: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: CinzelEB;
+  color: var(--titleColor);
+  font-size: 50px;
+  position: absolute;
+}
+.title:hover {
+  color: var(--anotherColor);
+}
+.title:active {
+  color: var(--textColorPanel);
+}
+.button {
+  margin: 0px;
+  width: 150px;
+  height: 30px;
+  background-color: var(--buttonBGColor);
+  color: var(--buttonTextColor);
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+.nonExisteningButton {
+  margin: 0px;
+  width: 50%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+  padding-top: 10px;
+}
+.dropDown {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.dropped {
+  height: fit-content;
+  display: block;
+  padding: 10px;
+  font-size: 70%;
+  background-color: var(--droppedBGColor);
+  color: inherit;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.dropped:hover {
+  background-color: var(--droppedBGColorHover);
+}
+.dropped:active {
+  background-color: var(--droppedBGColorActive);
+}
+
+.button:hover {
+  background-color: var(--buttonBGColorHover);
+}
+.topRow > .button:active {
+  background-color: var(--buttonBGColorActive);
+}
+#Children:hover .dropDown {
+  display: block;
+}
+
+#Sibling:hover .dropDown {
+  display: block;
+}

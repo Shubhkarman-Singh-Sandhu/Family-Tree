@@ -1,0 +1,24 @@
+.fade {
+    animation: fade 0.5s linear;
+}
+
+.forwardAnim {
+    animation-direction: normal;
+}
+
+.backwardAnim {
+    animation-direction: reverse;
+}
+
+.noFade {
+    animation: none;
+}
+
+@keyframes fade {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+    }
+}

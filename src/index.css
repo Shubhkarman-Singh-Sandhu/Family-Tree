@@ -1,0 +1,70 @@
+body {
+  margin:0px;
+  background-color: var(--mainColor);
+}
+
+.homePage {
+  margin:0;
+  padding-top:15% ;/*20%;*/
+  display: grid;
+  grid-template-areas: 
+  'a1 a1 a1'
+  'a2 a2 a2'
+  'a3 a4 a5';
+  text-align: center;
+}
+
+.smallerHeading {
+  grid-area: a1;
+  font-size: 40px;
+  margin: 10px;
+  height: fit-content;
+  font-family: CinzelEB;
+  color: var(--titleColor);
+}
+
+.titleHomePage {
+  grid-area: a2;
+  margin: 10px;
+  height: fit-content;
+  font-family: CinzelEB;
+  color: var(--titleColor);
+  font-size: 90px;
+}
+
+.startButton {
+  grid-area: a4;
+  width: 200px;
+  background-color: rgb(9, 52, 38);
+  color: var(--buttonTextColor);
+  font-family: CinzelEB;
+  font-size: 25px;
+  box-shadow: inset 10px;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.borderButton {
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+}
+
+.startButton:hover {
+  background-color: rgb(11, 61, 44);
+}
+
+.startButton:active {
+  background-color: rgb(13, 72, 53);
+}
+
+@font-face {
+  font-family: Whisper;
+  src: url(./Assests/Fonts/Whisper-Regular.ttf);
+}
+@font-face {
+  font-family: CinzelEB;
+  src: url(./Assests/Fonts/Cinzel-ExtraBold.ttf);
+}
